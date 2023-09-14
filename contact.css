@@ -52,7 +52,24 @@
     color: #006A52;
 }
 
+@media (min-width: 767px) {
+    .menu-icon{
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .mobileClose{
+        display: none;
+    }
+    .mobileNav.open{
+        display: block;
+    }
+    
+    #mobileText{
+        display: block;
+    }
 
     #contactHOne{
         font-size: 35px;

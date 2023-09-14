@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index_style.css">
     <title>Fryele Stallklubb</title>
 </head>
 <body>
@@ -15,17 +16,31 @@
         <div class="headerRow">
             <img id="logo"src="logo.jpg" alt="Loggan för Fryele Stallklubb">
         </div>
-        <div class="headerRow">
+        <div class="headerRow mobileClose">
             <a href="index.html"><span class="underline">Hem</span></a>
         </div>
-        <div class="headerRow">
+        <div class="headerRow mobileClose">
             <a href="ridskola.html">Ridskola</a>
         </div>
-        <div class="headerRow">
+        <div class="headerRow mobileClose">
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+
+    </header>
+
+    <div class="mobileNav">
+        <div class="mobileLink">
+            <a href="index.html">Hem</a>
+        </div>
+        <div class="mobileLink">
+            <a href="ridskola.html">Ridskola</a>
+        </div>
+        <div class="mobileLink">
             <a href="kontakt.html">Kontakt</a>
         </div>
 
-    </header>
+    </div>
     
     
         <div id="frontText">
@@ -71,13 +86,13 @@
     <div class="flexArticle secondArticle">
         <img src="news1.jpg" alt="Bild på en fyra hästar som går på rad">
         <div class="articleButton">
-            <h3>Träningsstider 2023</h3>
+            <h3>Årsmöte</h3>
         </div>
     </div>
     <div class="flexArticle thirdArticle">
         <img src="news1.jpg" alt="Bild på en fyra hästar som går på rad">
         <div class="articleButton">
-            <h3>Träningsstider 2023</h3>
+            <h3>Medlemmarna</h3>
         </div>
     </div>
     </div>
@@ -87,6 +102,7 @@
     <p id="copyright"></p>        
 </footer>
 <script src="fryele.js"></script>
+<script src="https://kit.fontawesome.com/308f39431b.js" crossorigin="anonymous"></script>
 
 
 </body>

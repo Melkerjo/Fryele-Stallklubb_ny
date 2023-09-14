@@ -40,6 +40,7 @@ header{
 
 #logo{
     height: 80px;
+    margin-left: 8px;
 }
 
 .headerRow a{
@@ -48,6 +49,43 @@ header{
     line-height: 80px;
     font-size: 18px;
 }
+
+
+.menu-icon{
+    position: absolute;
+    top: 30px; /* Justera vertikalt om det behövs */
+    right: 20px; /* Justera horisontellt om det behövs */
+    cursor: pointer;
+
+}
+
+.menu-icon i{
+    color: #006A52;
+    font-size: 30px;
+}
+
+.mobileNav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F7F3;
+    display: none;
+}
+
+.mobileLink{
+    flex-basis: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.mobileLink a{
+    text-decoration: none;
+    color: #006A52;
+    line-height: 50px;
+    font-size: 18px;
+}
+
 
 #frontText{
     position: relative;
@@ -119,11 +157,11 @@ header{
 }
 
 .newsButton{
-    width: 40%;
+    width: 50%;
     background-color: white;
     position: absolute;
     bottom: 20px;
-    left: 30%;
+    left: 25%;
 }
 
 .newsButton h3{
@@ -151,7 +189,6 @@ header{
 
 
 .flexArticle{
-    
     overflow: hidden; /*Gör så att inte bilden kan fylla ut mer än så stor boxen är*/
     position: relative;
     flex-basis: 30%;
@@ -163,11 +200,11 @@ header{
 }
 
 .articleButton{
-    width: 40%;
+    width: 50%;
     background-color: white;
     position: absolute;
     bottom: 20px;
-    left: 30%;
+    left: 25%;
 }
 
 .articleButton h3{
@@ -193,59 +230,3 @@ footer{
     line-height: 100px;
 }
 
-@media (max-width: 768px) {
-
-    #background{
-        height: 500px;
-    }
-
-    #frontText{
-        display: none;
-    }
-    
-    #mobileText{
-        display: block;
-    }
-
-
-    #newsPicture{
-        flex-direction: column;
-        gap: 0;
-    }
-    
-    #news h2{
-        font-size: 30px;
-    }
-
-
-    .flexNews{
-        height: auto;
-    }
-    
-    .firstNews{
-        flex-basis: 200px;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 30px;
-        
-    }
-
-    #newsArticle h2{
-        font-size: 30px;
-    }
-    
-    #newsArticleFlex{
-        flex-direction: column;
-        gap: 0;
-    }
-    
-    
-    .flexArticle{
-        flex-basis: 200px;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 30px;
-    }
-
-
-}
