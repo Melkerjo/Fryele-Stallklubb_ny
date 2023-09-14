@@ -1,0 +1,39 @@
+nav{
+    width: 60%;
+    height: 60px;
+    margin-left: 20%;
+    background-color: #F8F7F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+    margin-top: 5px;
+}
+
+.navBar{
+    flex-basis: 25%;
+    height: 100px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #006A52;
+    line-height: 60px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+#about{
+    width: 60%;
+    border: 6px solid #006A44;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+#about p{
+    text-align: center;
+    color:#006A52;
+
+}

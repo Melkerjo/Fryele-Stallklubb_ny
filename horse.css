@@ -1,0 +1,89 @@
+
+
+#horseHOne{
+    text-align: center;
+    color: #006A52;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#horse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#horseRowTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.horseInformation{
+    flex-basis: 23%;
+    padding-bottom: 23%;
+    border-radius: 50%;
+    border: 6px solid #006A44;
+    background-color: #F8F7F3;
+    position: relative;
+    background-image: url("islandshast.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.horseInformationInside{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.5); /*ställer in färg och 0,5 betyder 50% opacitet*/
+    border-radius: 15px;
+
+}
+
+.horseInformationInside > *{
+    margin: 0;
+    text-align: center;
+    color: #006A52;
+    margin-bottom: 10px;
+}
+
+.horseInformationInside h3{
+    font-size: 20px;
+}
+
+.horseInformationInside h4{
+    font-size: 15px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #horseHOne{
+        font-size: 35px;
+    }
+
+    #horse{
+        flex-direction: column;
+    }
+
+    
+    #horseRowTwo{
+        flex-direction: column;
+    }
+
+    .horseInformation{
+        width: 60%;
+        padding-bottom: 60%;
+        margin-top: 25px;
+        margin-left: 20%;
+    }
+}

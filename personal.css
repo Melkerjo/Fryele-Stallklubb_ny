@@ -1,0 +1,88 @@
+
+
+#personalHOne{
+    text-align: center;
+    color: #006A52;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#personal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#personalRowTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.personalInformation{
+    flex-basis: 23%;
+    padding-bottom: 23%;
+    border-radius: 50%;
+    border: 6px solid #006A44;
+    background-color: #F8F7F3;
+    position: relative;
+}
+
+.personalInformationInside{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.personalInformationInside > *{
+    margin: 0;
+    text-align: center;
+    color: #006A52;
+    margin-bottom: 10px;
+}
+
+.personalInformationInside h2{
+    font-size: 25px;
+}
+
+.personalInformationInside h3{
+    font-size: 20px;
+}
+
+.personalInformationInside h4{
+    font-size: 18px;
+}
+
+.personalInformationInside p{
+    text-decoration: none;
+    font-size: 15px;
+    color: #006A52;
+}
+
+@media (max-width: 768px) {
+
+    #personalHOne{
+        font-size: 35px;
+    }
+
+    #personal{
+        flex-direction: column;
+    }
+
+    
+    #personalRowTwo{
+        flex-direction: column;
+    }
+
+    .personalInformation{
+        width: 60%;
+        padding-bottom: 60%;
+        margin-top: 25px;
+        margin-left: 20%;
+    }
+}

@@ -1,0 +1,71 @@
+
+
+#contactHOne{
+    text-align: center;
+    color: #006A52;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.contactInformation{
+    flex-basis: 23%;
+    padding-bottom: 23%;
+    border-radius: 50%;
+    border: 6px solid #006A44;
+    background-color: #F8F7F3;
+    position: relative;
+}
+
+.contactInformationInside{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.contactInformationInside > *{
+    margin: 0;
+    text-align: center;
+    color: #006A52;
+    margin-bottom: 10px;
+}
+
+.contactInformationInside h2{
+    font-size: 25px;
+}
+
+.contactInformationInside h3{
+    font-size: 20px;
+}
+
+.contactInformationInside a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #006A52;
+}
+
+@media (max-width: 768px) {
+
+    #contactHOne{
+        font-size: 35px;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    .contactInformation{
+        width: 60%;
+        padding-bottom: 60%;
+        margin-top: 25px;
+        margin-left: 20%;
+    }
+}
