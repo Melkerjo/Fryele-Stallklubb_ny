@@ -137,7 +137,9 @@
 }
 
 @media (max-width: 500px) {
-
+    .personalInformationInside{
+        top: 15%;
+    }
     .personalInformationInside h2{
         font-size: 18px;
     }
