@@ -156,6 +156,10 @@
         flex-basis: 250px;
     }
 
+    .firstPart{
+        flex-basis: 450px;
+    }
+
     #informationAbout{
         flex-direction: column;
         flex-wrap: nowrap;
