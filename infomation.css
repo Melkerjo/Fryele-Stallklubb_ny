@@ -176,7 +176,13 @@
     #days{
         font-size: 14px;
     }
+    #calender{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 80px;
+    }
     #calender td{
         font-size: 12px;
     }
 }
+

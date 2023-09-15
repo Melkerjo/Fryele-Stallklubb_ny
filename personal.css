@@ -135,3 +135,22 @@
         font-size: 13px;
     }
 }
+
+@media (max-width: 500px) {
+
+    .personalInformationInside h2{
+        font-size: 18px;
+    }
+    
+    .personalInformationInside h3{
+        font-size: 16px;
+    }
+    
+    .personalInformationInside h4{
+        font-size: 14px;
+    }
+    
+    .personalInformationInside p{
+        font-size: 12px;
+    }
+}
